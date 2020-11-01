@@ -34,6 +34,7 @@ if(keyWentDown(UP_ARROW)){
   textSize(30)
   fill("red")
 text("Food Remaining: " + foodS,120,400)
+  text("Note: Press UP ARROW Key To feed the Dog Milk!",50,50)
 }
 
 function writeStock(x){
